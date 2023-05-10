@@ -1,0 +1,42 @@
+export const users = [
+  {
+      id: '1',
+      firstName: 'Fejes',
+      lastName: 'Fejesovich',
+      photo: 'https://www.huntshowdown.com/files/legends/thumb/Felis.jpg',
+      posts: ['1', '2', '3'],
+      friends: ['2', '3'],
+      password: '123',
+      login: 'fejes@fejes.com',
+  },
+  {
+    id: '2',
+    firstName: 'Fejes 2',
+    lastName: 'Fejesovich 2',
+    photo: 'https://cdn.mos.cms.futurecdn.net/RUDNuxgDaqpeMa8RFkF2cb-1920-80.jpg.webp',
+    posts: ['4'],
+    friends: ['1'],
+    password: '234',
+    login: 'fejes1@fejes.com',
+},
+{
+  id: '3',
+  firstName: 'Fejes 3',
+  lastName: 'Fejesovich 3',
+  photo: 'https://www.gamersdecide.com/sites/default/files/authors/u157549/huntcain.jpg',
+  posts: ['1'],
+  friends: [],
+  password: '345',
+  login: 'fejes3@fejes.com',
+},
+{
+id: '4',
+firstName: 'Fejes 4',
+lastName: 'Fejesovich 4',
+photo: 'https://www.huntshowdown.com/files/legends/thumb/Felis.jpg',
+posts: ['1'],
+friends: [],
+password: '456',
+login: 'fejes4@fejes.com',
+}
+]
